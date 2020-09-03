@@ -48,6 +48,7 @@ a {
 
 p {
     font-size: 16px;
+    text-align: left;
 }
 
 .hero {
@@ -93,7 +94,6 @@ h3 {
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
-    text-align: center;
 }
 
 .benefit-img {
