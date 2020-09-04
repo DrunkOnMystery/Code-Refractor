@@ -10,7 +10,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/* Set general characteristics for header area */
+/* Set overall settings characteristics for the header area */
 
 header {
     padding: 20px;
@@ -57,7 +57,7 @@ a {
     text-decoration: none;
 }
 
-/* Set general settings for the p-tags, excluding the one in the copyright note */
+/* Set general settings for the p-tags, which have the class "descriptions", excluding the one in the copyright note */
 
 .descriptions {
     font-size: 16px;
@@ -99,7 +99,7 @@ main {
     margin-left: 20px;
 }
 
-/* Defines general settings for the 3 sections with the class "tabs" within the section tag */
+/* Defines general settings for the 3 sections with the class "tabs" within the main tag */
 
 .tabs {
     margin-bottom: 20px;
@@ -111,7 +111,7 @@ main {
     clear: both;
 }
 
-/* Defintes the settings for the h2 tags within the main tag */
+/* Defintes the settings for the h2 tags within the three "tabs" sections */
 
 .sub-heading {
     margin-bottom: 20px;
