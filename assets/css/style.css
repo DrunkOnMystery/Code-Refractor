@@ -4,9 +4,13 @@
     margin: 0;
 }
 
+/* Set background color for the entire page */
+
 body {
     background-color: #d9dcd6;
 }
+
+/* Set general characteristics for header area */
 
 header {
     padding: 20px;
@@ -16,14 +20,20 @@ header {
     overflow: auto;
 }
 
+/* Set display and font size setting overrides for Horiseon logo, excluding the "seo" */
+
 h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Set override for color of the "seo" in the Horiseon logo */
+
 #seo {
     color: #d9dcd6;
 }
+
+/* Set display and font for Nav bar  */
 
 nav {
     margin-right: 20px;
@@ -32,12 +42,15 @@ nav {
     font-size: 20px;
 }
 
+/* Set display settings and font size for the list in the Nav bar */
+
 li {
     display: inline-block;
     margin-left: 25px;
     padding-top: 15px;
 }
 
+/* Set the color and display for the text of the buttons in the Nav bar */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -86,13 +99,10 @@ aside {
     background-color: #2589bd;
 }
 
-h3 {
-    text-align: center;
-}
-
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
+    text-align: center;
 }
 
 .benefit-img {
