@@ -51,15 +51,20 @@ li {
 }
 
 /* Set the color and display for the text of the buttons in the Nav bar */
+
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Set general settings for the p-tags, excluding the one in the copyright note */
+
 .descriptions {
     font-size: 16px;
     text-align: left;
 }
+
+/* Settings for the background image at the top of the page */
 
 .hero {
     height: 800px;
@@ -70,11 +75,15 @@ a {
     background-position: center;
 }
 
+/* Settings for the two images floated to the left within the section tag */
+
 .float-left {
     float: left;
     margin-right: 25px;
     max-height: 200px;
 }
+
+/* Settings for the two images floated to the right within the section tag */
 
 .float-right {
     float: right;
@@ -82,34 +91,15 @@ a {
     max-height: 200px;
 }
 
+/* General settings for items within the section tag */
+
 section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-aside {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.benefit {
-    margin-bottom: 32px;
-    color: #ffffff;
-    text-align: center;
-}
-
-.benefit-img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
+/* Defines general settings for the 3 divs with the class "tabs" within the section tag */
 
 .tabs {
     margin-bottom: 20px;
@@ -122,10 +112,43 @@ aside {
     overflow: auto;
 }
 
+/* Defintes the settings for the h2 tags within the section tag */
+
 .sub-heading {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* Settings for the aside tag, on the right side of the page*/
+
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Settings for the three "benefit" areas within the aside */
+
+.benefit {
+    margin-bottom: 32px;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Defines the size and display setting for the images within the aside section */
+
+.benefit-img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* General settings for the footer section */
 
 footer {
     padding: 30px;
